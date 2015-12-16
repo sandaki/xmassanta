@@ -1,10 +1,16 @@
 Rails.application.routes.draw do
+  
+
+  get 'makeUrTrain' => 'static_pages#gift2'
+
+  get 'not_for-now' => 'static_pages#gift3'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
-  root 'application#home'
+  root 'static_pages#gift1'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
